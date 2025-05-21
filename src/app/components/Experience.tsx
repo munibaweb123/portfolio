@@ -17,7 +17,7 @@ const experiences = [
 
 export default function WorkExperience() {
   return (
-    <section className="bg-gray-900 text-white py-16 px-8">
+    <section className="bg-gray-900 text-white py-16 px-8 max-w-6xl mx-auto">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">
           My <span className="text-purple-400">work experience</span>
