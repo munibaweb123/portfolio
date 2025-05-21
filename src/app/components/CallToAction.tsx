@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CallToAction() {
   return (
-    <section className="bg-gray-900 text-white py-16 px-8 flex flex-col items-center justify-center text-center relative">
+    <section className="bg-gray-900 max-w-6xl mx-auto text-white py-16 px-8 flex flex-col items-center justify-center text-center relative">
       <div className="absolute inset-0 bg-grid-gray-800 opacity-20 pointer-events-none" />
       <h2 className="text-3xl font-bold mb-4">
         Ready to take <span className="text-purple-400">your</span> digital presence to the next level?
