@@ -64,6 +64,13 @@ const ProjectGrid: React.FC = () => {
       techStack: ['Next.js', 'Tailwind CSS', 'TypeScript'],
       liveLink: 'https://ramzan-app.vercel.app/', // Replace with your live link
     },
+    {
+      title: 'Agentia world App with nextjs',
+      description: 'An agentia world app built with Next.js, providing users a chatbot like meta in whatsapp using google gemini api',
+      imageSrc: '/agentia.png', // Replace with your image path
+      techStack: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Google gemini api'],
+      liveLink: 'https://agentia-world-cz5q.vercel.app/', // Replace with your live link
+    },
   ];
 
   return (
