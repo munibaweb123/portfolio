@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { FaPaintBrush, FaChalkboard } from "react-icons/fa";
 
 const experiences = [
