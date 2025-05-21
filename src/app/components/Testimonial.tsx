@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    name: "Michael Johnson",
+    name: "Beesters switch",
     position: "Director of AlphaStream Technologies",
     image: "/profile.jpg", // Replace with the actual image path
     feedback:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Always come through and easy to work with.",
   },
 ];
 

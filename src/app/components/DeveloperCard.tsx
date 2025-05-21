@@ -20,8 +20,8 @@ const DeveloperCard: React.FC = () => {
           <p className="text-lg font-semibold">zone communications</p>
           <div className="mt-4">
             <p className="text-sm">USA</p>
-            <p className="text-sm">Germany</p>
-            <p className="text-sm">Ukraine</p>
+            
+            <p className="text-sm">Pakistan</p>
           </div>
         </div>
 
@@ -30,12 +30,12 @@ const DeveloperCard: React.FC = () => {
           <p className="text-lg font-semibold mb-2">My tech stack</p>
           <p className="text-sm text-gray-400 mb-4">I constantly try to improve</p>
           <div className="grid grid-cols-2 gap-2">
-            <div className="bg-gray-700 p-2 rounded-md">ReactJS</div>
-            <div className="bg-gray-700 p-2 rounded-md">VueJS</div>
-            <div className="bg-gray-700 p-2 rounded-md">Express</div>
-            <div className="bg-gray-700 p-2 rounded-md">NuxtJS</div>
+            <div className="bg-gray-700 p-2 rounded-md">NextJS</div>
+            <div className="bg-gray-700 p-2 rounded-md">Tailwindcss</div>
             <div className="bg-gray-700 p-2 rounded-md">Typescript</div>
-            <div className="bg-gray-700 p-2 rounded-md">GraphQL</div>
+            <div className="bg-gray-700 p-2 rounded-md">Python</div>
+            <div className="bg-gray-700 p-2 rounded-md">Streamlit</div>
+            <div className="bg-gray-700 p-2 rounded-md">Adobe Illustrator</div>
           </div>
         </div>
       </div>

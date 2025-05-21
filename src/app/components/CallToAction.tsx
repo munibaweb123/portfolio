@@ -18,7 +18,7 @@ export default function CallToAction() {
         Contact Me Now <ArrowRight size={18} />
       </Link>
       <footer className="mt-12 text-gray-500 text-sm">
-        <p>Copyright &copy; 2024 Adrian Hajdin</p>
+        <p>Copyright &copy; 2024 Muniba Ahmed</p>
         <div className="flex gap-4 justify-center mt-4">
           <Link href="#" className="hover:text-white"> {/* Instagram */}
             <i className="fab fa-instagram text-lg"></i>

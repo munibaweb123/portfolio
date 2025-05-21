@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const experiences = [
   {
-    title: "Frontend Engineer Intern",
-    description: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Graphic Designer",
+    description: "Worked on various design projects, including branding and marketing materials.",
     icon: "/frontend-intern.svg", // Replace with actual image path
   },
   {

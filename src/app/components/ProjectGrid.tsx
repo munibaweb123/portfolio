@@ -14,32 +14,32 @@ interface Project {
 const ProjectGrid: React.FC = () => {
   const projects: Project[] = [
     {
-      title: '3D Solar System Planets to Explore',
-      description: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
-      imageSrc: '/earth-project.png', // Replace with your image path
-      techStack: ['3D', 'JS', 'React'],
-      liveLink: 'https://example.com/solar-system', // Replace with your live link
+      title: 'Demo Portfolio - Figma to Next.js',
+      description: 'A demo portfolio website created from a Figma design, showcasing my skills and projects.',
+      imageSrc: '/demo-portfolio.png', // Replace with your image path
+      techStack: ['figma','Next.js', 'Tailwind CSS'],
+      liveLink: 'https://portfolio-from-figma-six.vercel.app/', // Replace with your live link
     },
     {
-      title: 'Yoom - Video Conferencing App',
-      description: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
-      imageSrc: '/yoom-app.png', // Replace with your image path
-      techStack: ['React', 'Node.js', 'WebRTC'],
-      liveLink: 'https://example.com/yoom', // Replace with your live link
+      title: 'Portfolio - Next.js',
+      description: 'A portfolio website built with Next.js, showcasing my projects and skills.',
+      imageSrc: '/portfolio.png', // Replace with your image path
+      techStack: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+      liveLink: 'https://portfolio-nextjs-poni.vercel.app/', // Replace with your live link
     },
     {
-      title: 'AI Image SaaS - Canva Application',
-      description: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
-      imageSrc: '/canva-ai.png', // Replace with your image path
-      techStack: ['AI', 'React', 'Node.js', 'Stripe'],
-      liveLink: 'https://example.com/canva-ai', // Replace with your live link
+      title: 'Nextjs Ecommerce Hackathon',
+      description: 'A Next.js eCommerce website built during a hackathon, featuring product listings and a shopping cart.',
+      imageSrc: '/ecommerce-hackathon.png', // Replace with your image path
+      techStack: ['Typescript', 'Sanity', 'Next.js', 'Stripe'],
+      liveLink: 'https://nextjs-hackathon-olive.vercel.app/', // Replace with your live link
     },
     {
-      title: 'Animated Apple Iphone 3D Website',
-      description: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.',
-      imageSrc: '/iphone-3d.png', // Replace with your image path
-      techStack: ['GSAP', 'Three.js', 'React'],
-      liveLink: 'https://example.com/iphone-3d', // Replace with your live link
+      title: 'Ramazan App with nextjs',
+      description: 'A Ramadan app built with Next.js, providing users with information and resources related to Ramadan.',
+      imageSrc: '/ramzan-app.png', // Replace with your image path
+      techStack: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+      liveLink: 'https://ramzan-app.vercel.app/', // Replace with your live link
     },
   ];
 
@@ -49,7 +49,7 @@ const ProjectGrid: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
           <div key={index} className="bg-gray-800 rounded-xl overflow-hidden shadow-lg">
-            <Image src={project.imageSrc} alt={project.title} className="w-full h-48 object-cover" />
+            <Image src={project.imageSrc} alt={project.title} width={500} height={500} />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
               <p className="text-gray-300 mb-4">{project.description}</p>

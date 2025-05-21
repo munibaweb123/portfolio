@@ -30,7 +30,7 @@ const DeveloperCard2: React.FC = () => {
           <div>
             <p className="text-2xl font-bold mb-2">THE INSIDE SCOOP</p>
             <p className="text-lg font-semibold">Currently building a</p>
-            <p className="text-lg font-semibold">JS Animation library</p>
+            <p className="text-lg font-semibold">AI Agents using openai SDK</p>
           </div>
         </div>
 

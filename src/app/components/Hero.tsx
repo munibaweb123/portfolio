@@ -30,12 +30,12 @@ const Hero: FC = () => {
       </nav>
 
       {/* Hero Content */}
-      <p className="text-sm uppercase tracking-widest text-gray-400">Dynamic Web Magic with Next.js</p>
+      <p className="text-sm uppercase tracking-widest text-gray-400">Dynamic Web Magic with Next.js and python</p>
       <h1 className="text-5xl md:text-6xl font-bold mt-4">
         Transforming Concepts into
-        <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500"> Seamless User Experiences</span>
+        <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500"> Seamless Web Application Development.</span>
       </h1>
-      <p className="text-lg text-gray-400 mt-4">Hi! I’m Adrian, a Next.js Developer based in Croatia.</p>
+      <p className="text-lg text-gray-400 mt-4">Hi! I&apos;m Muniba Ahmed, a Next.js and Python Developer.</p>
 
       {/* Call to Action Button */}
       <a href="#projects" className="mt-6 px-6 py-3 bg-white/10 hover:bg-white/20 rounded-lg shadow-lg flex items-center gap-2">
