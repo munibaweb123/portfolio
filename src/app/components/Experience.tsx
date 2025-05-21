@@ -1,26 +1,18 @@
 import Image from "next/image";
+import { FaPaintBrush, FaChalkboard } from "react-icons/fa";
 
 const experiences = [
   {
     title: "Graphic Designer",
     description: "Worked on various design projects, including branding and marketing materials.",
-    icon: "/frontend-intern.svg", // Replace with actual image path
+    icon: <FaPaintBrush size={50}/>, // Replace with actual image path
   },
   {
-    title: "Mobile App Dev - JSM Tech",
-    description: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    icon: "/mobile-app.svg", // Replace with actual image path
+    title: "Teaching",
+    description: "Teach matric class specially maths and computer science",
+    icon: <FaChalkboard size={50}/>, // Replace with actual image path
   },
-  {
-    title: "Freelance App Dev Project",
-    description: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    icon: "/freelance-app.svg", // Replace with actual image path
-  },
-  {
-    title: "Lead Frontend Developer",
-    description: "Developed and maintained user-facing features using modern frontend technologies.",
-    icon: "/lead-frontend.svg", // Replace with actual image path
-  },
+  
 ];
 
 export default function WorkExperience() {
@@ -36,12 +28,9 @@ export default function WorkExperience() {
               key={index}
               className="bg-gray-800 rounded-2xl p-6 shadow-lg flex items-center gap-4"
             >
-              <Image
-                src={experience.icon}
-                alt={experience.title}
-                width={50}
-                height={50}
-              />
+              <div className="text-purple-400">
+                {experience.icon}
+              </div>
               <div>
                 <p className="font-semibold text-lg">{experience.title}</p>
                 <p className="text-gray-400 text-sm">{experience.description}</p>

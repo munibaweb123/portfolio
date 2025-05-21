@@ -1,12 +1,21 @@
 import Image from "next/image";
+import { FaUserCircle } from "react-icons/fa";
 
 const testimonials = [
   {
-    name: "Beesters switch",
+    name: "Beesters Switch",
     position: "Director of AlphaStream Technologies",
-    image: "/profile.jpg", // Replace with the actual image path
-    feedback:
-      "Always come through and easy to work with.",
+    feedback: "Always come through and easy to work with.",
+  },
+  {
+    name: "Jane Doe",
+    position: "CEO of TechWave",
+    feedback: "Highly professional and delivers on time. Great experience!",
+  },
+  {
+    name: "John Smith",
+    position: "Manager at InnovateX",
+    feedback: "Exceptional work and attention to detail. Highly recommended!",
   },
 ];
 
@@ -25,21 +34,16 @@ export default function Testimonials() {
         <h2 className="text-3xl font-bold mb-6">
           Kind words from <span className="text-purple-400">satisfied clients</span>
         </h2>
-        <div className="flex justify-center gap-4 overflow-x-auto py-6">
+        {/* Testimonials Section */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-6">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-gray-800 rounded-2xl p-6 shadow-lg w-96 flex-shrink-0"
+              className="bg-gray-800 rounded-2xl p-6 shadow-lg flex flex-col items-center"
             >
               <p className="text-gray-300 mb-4">{testimonial.feedback}</p>
               <div className="flex items-center gap-3">
-                <Image
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  width={40}
-                  height={40}
-                  className="rounded-full border border-gray-600"
-                />
+                <FaUserCircle size={50} className="text-gray-600" />
                 <div>
                   <p className="font-semibold">{testimonial.name}</p>
                   <p className="text-gray-400 text-sm">{testimonial.position}</p>
@@ -48,6 +52,7 @@ export default function Testimonials() {
             </div>
           ))}
         </div>
+        {/* Brands Section */}
         <div className="flex justify-center items-center gap-6 mt-8 flex-wrap">
           {brands.map((brand, index) => (
             <Image
