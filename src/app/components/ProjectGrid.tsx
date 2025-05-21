@@ -14,6 +14,22 @@ interface Project {
 const ProjectGrid: React.FC = () => {
   const projects: Project[] = [
     {
+      title:'Python quiz app',
+      description:'A python quiz app build with python and streamlit',
+      imageSrc:'/python-quiz-app.png',
+      techStack: ['python','streamlit'],
+      liveLink: 'https://pythonquizapp.streamlit.app/'
+
+    },
+    {
+      title:'Python rock paper scissors',
+      description:'A python game build with python and streamlit',
+      imageSrc:'/rps.png',
+      techStack: ['python','streamlit'],
+      liveLink: 'https://rpsgame.streamlit.app/'
+
+    },
+    {
       title: 'Demo Portfolio - Figma to Next.js',
       description: 'A demo portfolio website created from a Figma design, showcasing my skills and projects.',
       imageSrc: '/demo-portfolio.png', // Replace with your image path
