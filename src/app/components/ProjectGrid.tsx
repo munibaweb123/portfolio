@@ -51,6 +51,13 @@ const ProjectGrid: React.FC = () => {
       liveLink: 'https://nextjs-hackathon-olive.vercel.app/', // Replace with your live link
     },
     {
+      title: 'Nextjs Ecommerce Hackathon Practice',
+      description: 'A Next.js eCommerce website built for practice for a hackathon, featuring product listings and a shopping cart.',
+      imageSrc: '/practice-hackathon.png', // Replace with your image path
+      techStack: ['Typescript', 'Sanity', 'Next.js', 'Stripe'],
+      liveLink: 'https://nextjs-hackathon-practice.vercel.app/', // Replace with your live link
+    },
+    {
       title: 'Ramazan App with nextjs',
       description: 'A Ramadan app built with Next.js, providing users with information and resources related to Ramadan.',
       imageSrc: '/ramzan-app.png', // Replace with your image path
